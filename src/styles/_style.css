@@ -1,0 +1,109 @@
+@import "./_colors.css";
+@import "./_typography.css";
+
+body {
+	font-family: sofia;
+	margin: 0px;
+}
+
+.roundyPicture {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    border-radius:50%;
+}
+
+.text-normal {
+	font-size: 18px;
+	line-height: 24px;
+	color: $dark-gray;
+}
+
+.justify-text {
+	text-align:justify
+}
+.text-center {
+	text-align: center;
+}
+
+.marginBottom0 {
+	margin-bottom: 0px;
+}
+
+.marginBottom30 {
+	margin-bottom: 30px;
+}
+
+.marginTop0 {
+	margin-top: 0px;
+}
+
+.marginTop10 {
+	padding-top: 10px;
+}
+
+.paddingTop30 {
+	padding-top: 30px;
+}
+
+.paddingTop50 {
+	padding-top: 50px;
+}
+
+.paddingTop75 {
+	padding-top: 75px;
+}
+
+.paddingLeft30 {
+	padding-left: 30px;
+}
+
+.paddingLeft50 {
+	padding-left: 50px;
+}
+
+.paddingLeft75 {
+	padding-left: 75px;
+}
+
+.marginTop10 {
+	margin-top: 10px;
+}
+
+.marginTop30 {
+	margin-top: 30px;
+}
+
+.marginTop50 {
+	margin-top: 50px;
+}
+
+.marginTop75 {
+	margin-top: 75px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.projectContainer {
+	width: 900px;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 900px){
+	.projectContainer {
+		width: calc(100% - 20px);
+		padding: 0 10px;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.container {
+		width: calc(100% - 20px);
+		padding: 0 10px;
+		margin: 0;
+	}
+}
