@@ -160,4 +160,18 @@ p {
 		font-size: 32px;
 	}
 	h2 { display: none; }
+	.rightItems {
+		position: absolute;
+		top: 5px;
+		right: 2px;
+		display: flex;
+	}
+
+	.header .leftItems {
+		position: absolute;
+		top: 5px;
+		left: 2px;
+		display: flex;
+		z-index: 2;
+	}
 }

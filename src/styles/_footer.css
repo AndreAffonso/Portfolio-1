@@ -1,0 +1,47 @@
+.footer {
+	height: 180px;
+	bottom: 0px;
+	left: 0px;
+	background: #303030;
+	width: 100%;
+	position: relative;
+}
+
+.topBlue {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 30px;
+  width: 100%;
+  background: #6599FF;
+}
+.socialLinks {
+  display: flex;
+  justify-content: center;
+}
+.socialLinks a {
+    margin: 50px 0px 0px 0px;
+}
+
+.socialLinks a i {
+	font-size: 24px;
+    color: white;
+}
+
+.socialLinks a:nth-child(2) {
+    margin: 50px 0px 0px 30px;
+}
+.otherLinks a {
+    text-decoration: none;
+	cursor: pointer;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	display:block;
+	transition: transform .2s ease-in-out; 
+}
+
+.otherLinks a:hover {
+	transform: scale(1.05);
+}	

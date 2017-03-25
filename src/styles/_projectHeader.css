@@ -2,10 +2,13 @@
 .projectHeader {
 	top: 0px;
 	left: 0px;
-	height: 100px;
+	height: 80px;
 	width: 100%;
 	background: #6599FF;
 	position: relative;
+	border-bottom: 1px solid #303030;
+	box-shadow: 5px 5px 5px #888888;
+	margin-bottom: 30px;
 }
 .projectHeader h1 {
 	position: absolute;
@@ -14,7 +17,7 @@
 	margin: 0;
 	transform: translate(-50%,-50%);
 	color: white;
-	font-size: 36px;
+	font-size: 32px;
 }
 
 .projectHeader .rightItems {
@@ -66,23 +69,20 @@
 	.projectHeader {
 		height: 120px;
 	}
-	.projectHeader .itemsWrapper .rightItems {
-		right: 5px;
-		top: 10px;	
+	.projectHeader .rightItems {
+		right: 2px;
+		top: 15px;	
 	}
-	.projectHeader .itemsWrapper .rightItems a:last-child {
-		margin-right: 30px;
-	}
-	.projectHeader .itemsWrapper .leftItems {
-		left: 5px;
-		top: 10px;	
+	.projectHeader .leftItems {
+		left: 2px;
+		top: 15px;	
 	}
     .projectHeader h1 {
     	position: absolute;
+    	text-align: center;
+    	width: 100%;
  		left: 50%;
  		top: 100%;
  		transform: translate(-50%,-150%);
- 		color: white;
- 		font-size: 36px;
     }
 }

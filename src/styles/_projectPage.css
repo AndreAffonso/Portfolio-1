@@ -78,5 +78,7 @@
 			margin: 0;
 		}
 	}
-
+	.arcanjoAppTwoPicturesWrapper div:last-child > img {
+		margin-left: 0px;
+	}
 }
