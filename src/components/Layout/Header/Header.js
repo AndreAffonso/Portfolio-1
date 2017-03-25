@@ -6,14 +6,14 @@ class Header extends React.Component{
     return (
       <div className='header'>
         <div className='leftItems'>
-          <a><i className="fa fa-github" aria-hidden="true"></i></a>
+          <a href='https://github.com/brunobraga95' target='_blank'><i className="fa fa-github" aria-hidden="true"></i></a>
           <a href='https://www.linkedin.com/in/brunobraga95/' target='_blank'>
             <i className="fa fa-linkedin" aria-hidden="true"></i>
           </a>
         </div>
         <div className='rightItems'>
           <a href='#projects'>Projects</a>
-          <a>Resume</a>
+          <a href='https://drive.google.com/open?id=0Bwtm0xUlN2eQVkg5OUdFby1lTms' target='_blank'>Resume</a>
         </div>
         <div className='desktopHeader'>
           <div className='backgroundImage'>

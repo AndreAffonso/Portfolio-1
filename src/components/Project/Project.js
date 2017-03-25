@@ -1,6 +1,7 @@
 import React from 'react';
 import Scoutfy from './Scoutfy/Scoutfy'
 import Arcanjo from './Arcanjo/Arcanjo'
+import Arkanoid from './Arkanoid/Arkanoid'
 import Header from './Header'
 import css from '../../styles/_projectsGrid.css'
 
@@ -26,6 +27,9 @@ class ProjectsGrid extends React.Component{
         break;
       case 'arcanjo':
         child = React.cloneElement(<Arcanjo />, this.state.projectInfo)
+  	    break;
+      case 'arkanoid':
+        child = React.cloneElement(<Arkanoid />, this.state.projectInfo)
   	    break;
       default:
         break;

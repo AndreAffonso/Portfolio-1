@@ -20,7 +20,7 @@ class Header extends React.Component{
             </div>
             <div className='rightItems'>
               <Link to='/'>Home</Link>
-              <a>Resume</a>
+              <a href='https://drive.google.com/open?id=0Bwtm0xUlN2eQVkg5OUdFby1lTms' target='_blank'>Resume</a>
             </div>
             <div className='roundyPicture myPictureWrapper'>
               <div className='roundyPicture myPicture' />
