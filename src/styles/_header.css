@@ -39,7 +39,7 @@ p {
 .header .rightItems a {
 	cursor: pointer;
 	text-decoration: none;
-	margin: 0px 5px;
+	margin: 0px 15px;
 	text-align: center;
 	font-size: 24px;
 	color: white;
@@ -47,7 +47,7 @@ p {
 	z-index: 2;
 }
 .header .rightItems a:hover {
-	transform: scale(1.3);
+	transform: scale(1.15);
 }
 
 .header .rightItems a:last-child {
@@ -63,7 +63,7 @@ p {
 
 .header .leftItems a {
 	cursor: pointer;
-	margin: 0px 5px;
+	margin: 0px 15px;
 	text-align: center;
 	color: white;
 	transition: transform .2s ease-in-out; 
@@ -75,7 +75,7 @@ p {
 }
 
 .header .leftItems a:hover {
-	transform: scale(1.3);
+	transform: scale(1.15);
 }	
 	
 .desktopHeader .myPictureWrapper {
@@ -167,6 +167,15 @@ p {
 		height: 300px;
 	}
 	h2 { display: none; }
+
+	.header .rightItems a{
+		margin: 0px 5px;
+	}
+
+	.header .leftItems a {
+		margin: 0px 5px;
+	}
+
 	.header .rightItems {
 		position: absolute;
 		top: 10px;
