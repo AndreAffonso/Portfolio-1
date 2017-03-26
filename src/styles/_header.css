@@ -31,8 +31,8 @@ p {
 
 .rightItems {
 	position: absolute;
-	top: 30px;
-	right: 30px;
+	top: 15px;
+	right: 15px;
 	display: flex;
 }
 
@@ -55,8 +55,8 @@ p {
 }
 .header .leftItems {
 	position: absolute;
-	top: 30px;
-	left: 30px;
+	top: 15px;
+	left: 15px;
 	display: flex;
 	z-index: 2;
 }
@@ -100,6 +100,7 @@ p {
 
 .mobileHeader .mySkills ul > li {
 	display: inline;
+	font-size: 12px;
 	color: black;
 }
 
@@ -156,11 +157,8 @@ p {
 		display: flex;
 		height: 300px;
 	}
-	.header .leftItems a {
-		font-size: 32px;
-	}
 	h2 { display: none; }
-	.rightItems {
+	.header .rightItems {
 		position: absolute;
 		top: 5px;
 		right: 2px;
@@ -173,5 +171,11 @@ p {
 		left: 2px;
 		display: flex;
 		z-index: 2;
+	}
+	.header .leftItems a {
+		font-size: 18px;
+	}
+	.header .rightItems a {
+		font-size: 18px;
 	}
 }
