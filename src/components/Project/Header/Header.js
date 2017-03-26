@@ -10,7 +10,6 @@ class Header extends React.Component{
         <div className='backgroundImage'>
           <div>
             <div className='leftItems'>
-              <a><i className="fa fa-facebook" aria-hidden="true"></i></a>
               <a href='https://github.com/brunobraga95' target='_blank'>
                 <i className="fa fa-github" aria-hidden="true"></i>
               </a>

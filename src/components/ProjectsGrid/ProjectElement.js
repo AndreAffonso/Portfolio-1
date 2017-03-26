@@ -10,12 +10,7 @@ class ProjectElement extends React.Component{
       	<Link to={`/project/${this.props.projectInfo.route}`}>
           <div className='projectSubtitleWrapper'>
             <div className='projectSubtitle'>
-          	  <p>{this.props.projectInfo.name}</p>
-    	  	    <div className='subtitleProjectInfoIcons'>
-    	  	  	  <a><i className="fa fa-heart" aria-hidden="true"></i></a>
-    	  		    <a><i className="fa fa-comment" aria-hidden="true"></i></a>
-    	          <a><i className="fa fa-github" aria-hidden="true"></i></a>
-    	  	    </div>
+          	  <span>{this.props.projectInfo.name}</span>
             </div>
           </div>
         </Link>

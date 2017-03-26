@@ -20,54 +20,57 @@
 	font-size: 32px;
 }
 
-.projectHeader .rightItems {
+.rightItems {
 	position: absolute;
-	top: 30px;
-	right: 30px;
+	top: 15px;
+	right: 15px;
 	display: flex;
 }
 
 .projectHeader .rightItems a {
 	cursor: pointer;
 	text-decoration: none;
-	margin: 0px 15px;
+	margin: 0px 5px;
 	text-align: center;
 	font-size: 18px;
 	color: white;
 	transition: transform .2s ease-in-out; 
+	z-index: 2;
 }
-.rightItems a:hover {
-	transform: scale(1.3);
-}	
-
-.rightItems a:last-child {
-	margin-right: 30px;
-}
-.projectHeader .leftItems {
-	position: absolute;
-	top: 30px;
-	left: 30px;
-	display: flex;
-}
-
-.leftItems a {
-	cursor: pointer;
-	margin: 0px 15px;
-	text-align: center;
-	font-size: 18px;
-	color: white;
-	transition: transform .2s ease-in-out; 
-}
-.leftItems a:hover {
+.projectHeader .rightItems a:hover {
 	transform: scale(1.3);
 }
 
 .projectHeader .rightItems a:last-child {
-	margin-right: 30px;
+	margin-right: 0px;
+}
+.projectHeader .leftItems {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	display: flex;
+	z-index: 2;
+}
+
+.projectHeader .leftItems a {
+	cursor: pointer;
+	margin: 0px 5px;
+	text-align: center;
+	color: white;
+	transition: transform .2s ease-in-out; 
+	font-size: 24px;
+}
+
+.projectHeader .leftItems a:first-child {
+	margin-left: 0px;
+}
+
+.projectHeader .leftItems a:hover {
+	transform: scale(1.3);
 }
 @media screen and (max-width: 900px){
 	.projectHeader {
-		height: 120px;
+		height: 70px;
 	}
 	.projectHeader .rightItems {
 		right: 2px;
@@ -85,4 +88,40 @@
  		top: 100%;
  		transform: translate(-50%,-150%);
     }
+	.projectHeader .rightItems {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		display: flex;
+	}
+
+	.projectHeader .leftItems {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		display: flex;
+		z-index: 2;
+	}
+	.projectHeader .leftItems a {
+		font-size: 18px;
+	}
+	.projectHeader .rightItems a {
+		font-size: 18px;
+	}
 }
+
+@media screen and (max-width: 750px){
+	.projectHeader .rightItems a {
+		font-size: 14px;
+	}
+	.projectHeader h1 {
+		position: absolute;
+		left: 50%;
+		top: 100%;
+		margin: 0;
+		transform: translate(-50%,-120%);
+		color: white;
+		font-size: 24px;
+	}
+}
+

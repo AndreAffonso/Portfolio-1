@@ -15,15 +15,15 @@
   width: 100%;
   background: #6599FF;
 }
-.socialLinks {
+.footer .socialLinks {
   display: flex;
   justify-content: center;
 }
-.socialLinks a {
+.footer .socialLinks a {
     margin: 50px 0px 0px 0px;
 }
 
-.socialLinks a i {
+.footer .socialLinks a i {
 	font-size: 24px;
     color: white;
 }
@@ -45,3 +45,24 @@
 .otherLinks a:hover {
 	transform: scale(1.05);
 }	
+
+@media screen and (max-width: 800px){
+	.footer {
+		height: 110px;
+	}
+	.topBlue {
+	  height: 15px;
+	}
+	.footer .socialLinks a {
+    	margin: 25px 0px 0px 0px;
+	}
+	.socialLinks a:nth-child(2) {
+    	margin: 25px 0px 0px 30px;
+	}
+
+	.footer .otherLinks a {
+	    font-size: 14px;
+	    margin-top: 10px;
+	}
+
+}

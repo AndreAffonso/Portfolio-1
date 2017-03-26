@@ -32,33 +32,19 @@
 	transition: all 1s ease;
 	display: flex;
 	padding: 10px;
+	justify-content: center;
+	align-content: center;
 }
 
-.projectSubtitle p {
-	flex: 5;
+.projectSubtitle span {
 	margin: 0;
 	padding: 0px;
 	color: white;
-}
-.projectSubtitle .subtitleProjectInfoIcons {
-	flex: 2;
-	display: flex;
-	margin: auto 0px;
-	justify-content: space-around;
 	font-size: 24px;
-}
-
-.projectSubtitle .subtitleProjectInfoIcons a { 
-	transition: transform .2s ease-in-out; 
-}
-	 
-.projectSubtitle .subtitleProjectInfoIcons a:hover {
-	transform: scale(1.3);
 }
 
 .projectElement:hover > a .projectSubtitle {
 	opacity: 1;
-	height: auto;
 }	
 
 @media screen and (max-width: 1250px) and (min-width: 900px){
@@ -74,7 +60,18 @@
 	}
 	.projectElement .projectSubtitle {
 		opacity: 0.8;
-		height: auto;
+		height: 30px;
 	}
-	.projectElement .projectSubtitle p {font-size: 16px;}
+	.projectElement .projectSubtitle span {font-size: 16px;}
+}
+
+@media screen and (max-width: 750px){
+	.projectElement .projectSubtitle {
+		opacity: 0.8;
+		height: 10px;
+	}
+	.projectElement .projectSubtitle span{
+		opacity: 0.8;
+		height: 10px;
+	}
 }
