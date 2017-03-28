@@ -65,6 +65,23 @@
 	.projectElement .projectSubtitle span {font-size: 16px;}
 }
 
+.contentNotAvaiable {
+	opacity: 1;
+    background: #303030;
+    opacity: 0.9;
+    position: relative;
+}
+.contentNotAvaiable:before {
+	position: absolute;
+	top:50%;
+	content: "Content Avaiable Soon";
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+	color: white;
+}
+
 @media screen and (max-width: 750px){
 	.projectElement .projectSubtitle {
 		opacity: 0.8;
@@ -73,5 +90,8 @@
 	.projectElement .projectSubtitle span{
 		opacity: 0.8;
 		height: 10px;
+	}
+	.contentNotAvaiable:before {
+		top:30%;
 	}
 }
