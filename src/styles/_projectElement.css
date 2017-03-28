@@ -74,7 +74,7 @@
 .contentNotAvaiable:before {
 	position: absolute;
 	top:50%;
-	content: "Content Available Soon";
+	content: "Content will be available soon";
 	width: 100%;
 	text-align: center;
 	font-size: 22px;
