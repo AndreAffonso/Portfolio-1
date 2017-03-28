@@ -19,9 +19,9 @@ class Arcanjo extends React.Component {
           </div>
         </div>
         <h3>Summary</h3>
-        <p className='text-normal justify-text marginBottom0'>Arcanjo is a dashboard plataform build for a consulting company
-        (with the same same) located in Itajubá, Minas Gerais. The company wanted a dashboard that could be sold
-        and distributed to other business. Using this dashboard people could evaluate their employees using KPIs
+        <p className='text-normal justify-text marginBottom0'>Arcanjo is a dashboard plataform built for a consulting company
+        (with the same name) located in Itajubá, Minas Gerais. The company wanted a dashboard that could be sold
+        and distributed to other business. Using this dashboard employers could evaluate their employees using KPIs
         (Key Performance Experience) and keep track of their work.</p>
         <p className='text-normal justify-text'>Along side with the dashboard, a mobile App was also developed.
         On this app an especific employee (the supervisor), can evaluate other employees and check if they are 
@@ -58,7 +58,7 @@ class Arcanjo extends React.Component {
               <li>Developed Android and IOS App</li>
               <li>Wrote API calls and other backend processes</li>
               <li>Improved Dashboard design</li>
-              <li>Created Online/Editable form</li>
+              <li>Created Editable form on the web plataform</li>
             </ul>
           </div>
         </div>

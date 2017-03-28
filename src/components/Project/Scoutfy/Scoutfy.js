@@ -14,10 +14,10 @@ class Scoutfy extends React.Component {
          startup founded by Adalberto Brandão, São Paulo. Scountfy's goal is to create
          a new enviroment for both atheletes and sport organizations, trying to provide
          them a place to manage 
-         and organize their affair.</p>
+         and organize their businesses.</p>
         <p className='text-normal justify-text'>Inside Scoutfy not only elite Atheletes
-         but also regular costumer are able to keep track of their
-         traine results, health and physical situations, possible contracts with clubs
+         but also regular costumers are able to keep track of their
+         training results, health and physical situations, possible contracts with clubs
          and much more.</p>
         <div className='tecnologiesWrapper'>
           <div className='tecnologies'>
@@ -35,18 +35,18 @@ class Scoutfy extends React.Component {
             <h3>My Role</h3>
             <ul>
               <li>Frontend Developer</li>
-              <li>Developing screens and componentes used in the plataform</li>
-              <li>Wrote API calls and other backend processes</li>
+              <li>Developing screens and React componentes used in the plataform</li>
             </ul>
           </div>
         </div>
         <img src={this.props.images[1]} className='largeProjectPicture marginBottom30' />
         <img src={this.props.images[2]} className='largeProjectPicture marginBottom30' />
         <h3>Conclusion</h3>
-        <p className='text-normal justify-text marginBottom30'>The Arcanjo site is a culmination
-         of my skills, taking designs and converting them into a responsive layout and combining 
-         both a web plataform with mobile apps. It was also a project that I worked as a Full Stack,
-         being part of both frontend (Mobile App, Web Dashboard) and backend (MySQL, Node.js)</p>
+        <p className='text-normal justify-text marginBottom30'>Scoutfy is the startup 
+        where I continuously improve my Frontend and coding knowledge. It also helps me improving time 
+        management, since we are talking about a remote job and project management. Another cool part
+        about this job is how involved and passionated I am towards it, making myself keep in touch with
+        the new tecnologies and techniques.</p>
       </div>
     )
   }
