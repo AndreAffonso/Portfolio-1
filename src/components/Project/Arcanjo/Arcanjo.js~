@@ -22,7 +22,7 @@ class Arcanjo extends React.Component {
         <p className='text-normal justify-text marginBottom0'>Arcanjo is a dashboard plataform built for a consulting company
         (with the same name) located in Itajubá, Minas Gerais. The company wanted a dashboard that could be sold
         and distributed to other business. Using this dashboard employers could evaluate their employees using KPIs
-        (Key Performance Indicator) and keep track of their work.</p>
+        (Key Performance Experience) and keep track of their work.</p>
         <p className='text-normal justify-text'>Along side with the dashboard, a mobile App was also developed.
         On this app an especific employee (the supervisor), can evaluate other employees and check if they are 
         completeling their tasks. The informations collected by the supervisor are then sent to the Web Plataform 
